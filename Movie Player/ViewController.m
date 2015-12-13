@@ -23,7 +23,7 @@
     NSURL *videoURL = [[NSBundle mainBundle]URLForResource:@"video" withExtension:@"mp4"];
     
     // or use a remote URL
-    // NSURL *videoURL = [NSURL URLWithString:@"https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/4440/5/147203742/446020536.mp4?token=566d8865_0x4f7dd335901c1ab42317c3d0b8d237db988c4e98&download=1&filename=Presenting+on+top+of+a+UISplitView+Controller+-+Part+1-HD.mp4"];
+    // NSURL *videoURL = [NSURL URLWithString:@"https://github.com/versluis/Movie-Player/blob/master/Movie%20Player/video.mov?raw=true"];
     
     // create an AVPlayer
     AVPlayer *player = [AVPlayer playerWithURL:videoURL];
