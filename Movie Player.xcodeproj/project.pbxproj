@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D7A3151C1DABF600C69F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A3141C1DABF600C69F3C /* main.m */; };
+		D2D7A3181C1DABF600C69F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A3171C1DABF600C69F3C /* AppDelegate.m */; };
+		D2D7A31B1C1DABF600C69F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A31A1C1DABF600C69F3C /* ViewController.m */; };
+		D2D7A31E1C1DABF600C69F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D7A31C1C1DABF600C69F3C /* Main.storyboard */; };
+		D2D7A3201C1DABF600C69F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D7A31F1C1DABF600C69F3C /* Assets.xcassets */; };
+		D2D7A3231C1DABF600C69F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D7A3211C1DABF600C69F3C /* LaunchScreen.storyboard */; };
+		D2D7A32E1C1DABF600C69F3C /* Movie_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A32D1C1DABF600C69F3C /* Movie_PlayerTests.m */; };
+		D2D7A3391C1DABF700C69F3C /* Movie_PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A3381C1DABF700C69F3C /* Movie_PlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D7A32A1C1DABF600C69F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D7A3081C1DABF600C69F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D7A30F1C1DABF600C69F3C;
+			remoteInfo = "Movie Player";
+		};
+		D2D7A3351C1DABF700C69F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D7A3081C1DABF600C69F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D7A30F1C1DABF600C69F3C;
+			remoteInfo = "Movie Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D7A3101C1DABF600C69F3C /* Movie Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D7A3141C1DABF600C69F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2D7A3161C1DABF600C69F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2D7A3171C1DABF600C69F3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2D7A3191C1DABF600C69F3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2D7A31A1C1DABF600C69F3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2D7A31D1C1DABF600C69F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2D7A31F1C1DABF600C69F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D7A3221C1DABF600C69F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2D7A3241C1DABF600C69F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D7A3291C1DABF600C69F3C /* Movie PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D7A32D1C1DABF600C69F3C /* Movie_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_PlayerTests.m; sourceTree = "<group>"; };
+		D2D7A32F1C1DABF600C69F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D7A3341C1DABF700C69F3C /* Movie PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D7A3381C1DABF700C69F3C /* Movie_PlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_PlayerUITests.m; sourceTree = "<group>"; };
+		D2D7A33A1C1DABF700C69F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D7A30D1C1DABF600C69F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7A3261C1DABF600C69F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7A3311C1DABF700C69F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D7A3071C1DABF600C69F3C = {
+			isa = PBXGroup;
+			children = (
+				D2D7A3121C1DABF600C69F3C /* Movie Player */,
+				D2D7A32C1C1DABF600C69F3C /* Movie PlayerTests */,
+				D2D7A3371C1DABF700C69F3C /* Movie PlayerUITests */,
+				D2D7A3111C1DABF600C69F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D7A3111C1DABF600C69F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D7A3101C1DABF600C69F3C /* Movie Player.app */,
+				D2D7A3291C1DABF600C69F3C /* Movie PlayerTests.xctest */,
+				D2D7A3341C1DABF700C69F3C /* Movie PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D7A3121C1DABF600C69F3C /* Movie Player */ = {
+			isa = PBXGroup;
+			children = (
+				D2D7A3161C1DABF600C69F3C /* AppDelegate.h */,
+				D2D7A3171C1DABF600C69F3C /* AppDelegate.m */,
+				D2D7A3191C1DABF600C69F3C /* ViewController.h */,
+				D2D7A31A1C1DABF600C69F3C /* ViewController.m */,
+				D2D7A31C1C1DABF600C69F3C /* Main.storyboard */,
+				D2D7A31F1C1DABF600C69F3C /* Assets.xcassets */,
+				D2D7A3211C1DABF600C69F3C /* LaunchScreen.storyboard */,
+				D2D7A3241C1DABF600C69F3C /* Info.plist */,
+				D2D7A3131C1DABF600C69F3C /* Supporting Files */,
+			);
+			path = "Movie Player";
+			sourceTree = "<group>";
+		};
+		D2D7A3131C1DABF600C69F3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D7A3141C1DABF600C69F3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2D7A32C1C1DABF600C69F3C /* Movie PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D7A32D1C1DABF600C69F3C /* Movie_PlayerTests.m */,
+				D2D7A32F1C1DABF600C69F3C /* Info.plist */,
+			);
+			path = "Movie PlayerTests";
+			sourceTree = "<group>";
+		};
+		D2D7A3371C1DABF700C69F3C /* Movie PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D7A3381C1DABF700C69F3C /* Movie_PlayerUITests.m */,
+				D2D7A33A1C1DABF700C69F3C /* Info.plist */,
+			);
+			path = "Movie PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D7A30F1C1DABF600C69F3C /* Movie Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D7A33D1C1DABF700C69F3C /* Build configuration list for PBXNativeTarget "Movie Player" */;
+			buildPhases = (
+				D2D7A30C1C1DABF600C69F3C /* Sources */,
+				D2D7A30D1C1DABF600C69F3C /* Frameworks */,
+				D2D7A30E1C1DABF600C69F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movie Player";
+			productName = "Movie Player";
+			productReference = D2D7A3101C1DABF600C69F3C /* Movie Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D7A3281C1DABF600C69F3C /* Movie PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D7A3401C1DABF700C69F3C /* Build configuration list for PBXNativeTarget "Movie PlayerTests" */;
+			buildPhases = (
+				D2D7A3251C1DABF600C69F3C /* Sources */,
+				D2D7A3261C1DABF600C69F3C /* Frameworks */,
+				D2D7A3271C1DABF600C69F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D7A32B1C1DABF600C69F3C /* PBXTargetDependency */,
+			);
+			name = "Movie PlayerTests";
+			productName = "Movie PlayerTests";
+			productReference = D2D7A3291C1DABF600C69F3C /* Movie PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2D7A3331C1DABF700C69F3C /* Movie PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D7A3431C1DABF700C69F3C /* Build configuration list for PBXNativeTarget "Movie PlayerUITests" */;
+			buildPhases = (
+				D2D7A3301C1DABF700C69F3C /* Sources */,
+				D2D7A3311C1DABF700C69F3C /* Frameworks */,
+				D2D7A3321C1DABF700C69F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D7A3361C1DABF700C69F3C /* PBXTargetDependency */,
+			);
+			name = "Movie PlayerUITests";
+			productName = "Movie PlayerUITests";
+			productReference = D2D7A3341C1DABF700C69F3C /* Movie PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D7A3081C1DABF600C69F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
+				TargetAttributes = {
+					D2D7A30F1C1DABF600C69F3C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D2D7A3281C1DABF600C69F3C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D2D7A30F1C1DABF600C69F3C;
+					};
+					D2D7A3331C1DABF700C69F3C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D2D7A30F1C1DABF600C69F3C;
+					};
+				};
+			};
+			buildConfigurationList = D2D7A30B1C1DABF600C69F3C /* Build configuration list for PBXProject "Movie Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D7A3071C1DABF600C69F3C;
+			productRefGroup = D2D7A3111C1DABF600C69F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D7A30F1C1DABF600C69F3C /* Movie Player */,
+				D2D7A3281C1DABF600C69F3C /* Movie PlayerTests */,
+				D2D7A3331C1DABF700C69F3C /* Movie PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D7A30E1C1DABF600C69F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D7A3231C1DABF600C69F3C /* LaunchScreen.storyboard in Resources */,
+				D2D7A3201C1DABF600C69F3C /* Assets.xcassets in Resources */,
+				D2D7A31E1C1DABF600C69F3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7A3271C1DABF600C69F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7A3321C1DABF700C69F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D7A30C1C1DABF600C69F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D7A31B1C1DABF600C69F3C /* ViewController.m in Sources */,
+				D2D7A3181C1DABF600C69F3C /* AppDelegate.m in Sources */,
+				D2D7A3151C1DABF600C69F3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7A3251C1DABF600C69F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D7A32E1C1DABF600C69F3C /* Movie_PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D7A3301C1DABF700C69F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D7A3391C1DABF700C69F3C /* Movie_PlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D7A32B1C1DABF600C69F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D7A30F1C1DABF600C69F3C /* Movie Player */;
+			targetProxy = D2D7A32A1C1DABF600C69F3C /* PBXContainerItemProxy */;
+		};
+		D2D7A3361C1DABF700C69F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D7A30F1C1DABF600C69F3C /* Movie Player */;
+			targetProxy = D2D7A3351C1DABF700C69F3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2D7A31C1C1DABF600C69F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D7A31D1C1DABF600C69F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2D7A3211C1DABF600C69F3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D7A3221C1DABF600C69F3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D7A33B1C1DABF700C69F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2D7A33C1C1DABF700C69F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D7A33E1C1DABF700C69F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Movie Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Movie-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2D7A33F1C1DABF700C69F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Movie Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Movie-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2D7A3411C1DABF700C69F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Movie PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Movie-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Player.app/Movie Player";
+			};
+			name = Debug;
+		};
+		D2D7A3421C1DABF700C69F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Movie PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Movie-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Player.app/Movie Player";
+			};
+			name = Release;
+		};
+		D2D7A3441C1DABF700C69F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Movie PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Movie-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Movie Player";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D2D7A3451C1DABF700C69F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Movie PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Movie-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Movie Player";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D7A30B1C1DABF600C69F3C /* Build configuration list for PBXProject "Movie Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D7A33B1C1DABF700C69F3C /* Debug */,
+				D2D7A33C1C1DABF700C69F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D7A33D1C1DABF700C69F3C /* Build configuration list for PBXNativeTarget "Movie Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D7A33E1C1DABF700C69F3C /* Debug */,
+				D2D7A33F1C1DABF700C69F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2D7A3401C1DABF700C69F3C /* Build configuration list for PBXNativeTarget "Movie PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D7A3411C1DABF700C69F3C /* Debug */,
+				D2D7A3421C1DABF700C69F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2D7A3431C1DABF700C69F3C /* Build configuration list for PBXNativeTarget "Movie PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D7A3441C1DABF700C69F3C /* Debug */,
+				D2D7A3451C1DABF700C69F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D7A3081C1DABF600C69F3C /* Project object */;
+}
