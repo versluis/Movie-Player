@@ -15,6 +15,7 @@
 		D2D7A3231C1DABF600C69F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D7A3211C1DABF600C69F3C /* LaunchScreen.storyboard */; };
 		D2D7A32E1C1DABF600C69F3C /* Movie_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A32D1C1DABF600C69F3C /* Movie_PlayerTests.m */; };
 		D2D7A3391C1DABF700C69F3C /* Movie_PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7A3381C1DABF700C69F3C /* Movie_PlayerUITests.m */; };
+		D2D7A34B1C1DB3EA00C69F3C /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D2D7A34A1C1DB3EA00C69F3C /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D2D7A3341C1DABF700C69F3C /* Movie PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D7A3381C1DABF700C69F3C /* Movie_PlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_PlayerUITests.m; sourceTree = "<group>"; };
 		D2D7A33A1C1DABF700C69F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D7A34A1C1DB3EA00C69F3C /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../../Downloads/video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D2D7A3171C1DABF600C69F3C /* AppDelegate.m */,
 				D2D7A3191C1DABF600C69F3C /* ViewController.h */,
 				D2D7A31A1C1DABF600C69F3C /* ViewController.m */,
+				D2D7A34A1C1DB3EA00C69F3C /* video.mp4 */,
 				D2D7A31C1C1DABF600C69F3C /* Main.storyboard */,
 				D2D7A31F1C1DABF600C69F3C /* Assets.xcassets */,
 				D2D7A3211C1DABF600C69F3C /* LaunchScreen.storyboard */,
@@ -246,6 +249,7 @@
 				D2D7A3231C1DABF600C69F3C /* LaunchScreen.storyboard in Resources */,
 				D2D7A3201C1DABF600C69F3C /* Assets.xcassets in Resources */,
 				D2D7A31E1C1DABF600C69F3C /* Main.storyboard in Resources */,
+				D2D7A34B1C1DB3EA00C69F3C /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
